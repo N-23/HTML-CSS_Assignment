@@ -2,7 +2,7 @@
 <html> 
 
   <head>
-    <meta charaset="utf-8"> 
+    <meta charaset="utf-8"><!--meta tags are used for description, keywords, author info and they are also useful for search engines-->
     <title>Webpage</title>
     <link rel="stylesheet" type="text/css" href="CSS/sheet.css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap" rel="stylesheet" />
@@ -24,11 +24,11 @@
           </div>
           <nav>
             <ul>
-              <li>
+              <li class="li1">
                 <a href="#">
-                  <img src="Images/Inboxsign.png" alt="INBOX"> 
-                </a> 
-                <span class="circle">6</span>
+                  <img src="Images/Inboxsign.png" alt="INBOX">  
+                  <span class="circle">6</span>
+                </a>
               </li> 
 
               <li>
@@ -53,7 +53,7 @@
 
       <section class="body1">
         <div class="container-inner">
-          <h5>CITY MALL - PROJECT DASHBOARD</h5>
+          <span class="m">CITY MALL - PROJECT DASHBOARD</span>
           <img class="right-image" src="Images/colon.png" alt="COLON">
           <div class="clear"></div>
           <div class="Rectangle">
@@ -112,7 +112,7 @@
       <section class="body2">
           <div class="container-inner">
 
-            <h5>MILESTONES</h5>
+            <span class="m">MILESTONES</span>
             <figure class="LOGO">
               <img class="LOGO1" src="Images/lessthan_logo.png" alt="LESS THAN">
               <img src="Images/greaterthan_logo.png" alt="GREATER THAN">
@@ -136,9 +136,9 @@
             </div>
             </div>
             <div class="rectangle14">
-              <h5  class="milestone">MILESTONE</h5>
-            <h5 class="number1">1</h5>
-            <div class="clear"></div>
+              <span class="ms">MILESTONE</span>
+              <span class="number1">1</span>
+            <!-- <div class="clear"></div> -->
             </div>
           </div>
             <div class="rectangle12 ">
@@ -157,8 +157,8 @@
               </div>
             </div>
             <div class="rectangle14">
-              <h5  class="milestone">MILESTONE</h5>
-              <h5 class="number1">2</h5>
+              <span  class="ms">MILESTONE</span>
+              <span class="number1">2</span>
               <div class="clear"></div>
             </div>
             </div>
@@ -178,8 +178,8 @@
               </div>
             </div>
             <div class="rectangle14">
-              <h5  class="milestone">MILESTONE</h5>
-              <h5 class="number1">3</h5>
+              <span  class="ms">MILESTONE</span>
+              <span class="number1">3</span>
               <div class="clear"></div>
             </div>
             </div>
@@ -199,8 +199,8 @@
               </div>
             </div>
             <div class="rectangle14">
-              <h5  class="milestone">MILESTONE</h5>
-                  <h5 class="number1"> 4</h5>
+              <span  class="ms">MILESTONE</span>
+                  <span class="number1"> 4</span>
               <div class="clear"></div>
             </div>
             </div>
@@ -223,12 +223,11 @@
           <div class="Rectangle3">
             <div class="rectangle24">
             <div class="rectangle25">
-              <h4>RECENT TASKS</h4>
-                <div class="logo12">
-                <figure>
+              <div class="rt">RECENT TASKS
+                <span class="logo12">
                   <img src="Images/colon.png" alt="COLON">
-                </figure>
-                </div>
+                </span>
+              </div>
             </div>
             <ul class="List">
               <li class="list">Lorem ipsum dlores amet voluptates quidem
@@ -243,11 +242,9 @@
               <li class="list2">Voluptates iusto quidem harem rerum
               </li>
               <li class="image">
-                <figure>
                 <img src="Images/Image.png" alt="IMAGE">
-                </figure>
               </li>
-              <li class="list1">2<br>Feb 2018
+              <li class="list4">2<br>Feb 2018
               </li>
             </ul>
             <ul class="List">
@@ -280,23 +277,23 @@
             </div>
             <div class="rectangle24">
             <div class="rectangle25">
-              <h4>WORK STATUS</h4>
-                <div class="logo13">
-                  <figure>
+              <div class="rt">WORK STATUS
+                <span class="logo13">
                   <img src="Images/colon.png" alt="COLON">
-                  </figure>
-                </div>
+                </span>
+              </div>
+            </div>
               <ul class="List5">
               <li class="list10">
                 <h5>Lorem ipsum</h5>
                 <li class="Rectangle4">
-                  <span style="width: 43%">
-                  </span>
-                  <div class="container1">
+                  <span style="min-width: 0%;max-width: 100%;width: 43%">
+                   <div class="container1">
                     <div class="number8">
                     <h5>43%</h5>
                     </div>
-                  </div>
+                   </div>
+                  </span>
                 </li>  
               </li> 
               </ul>
@@ -304,13 +301,13 @@
               <li class="list10">
                 <h5>Lorem ipsum</h5>
                 <li class="Rectangle4">
-                  <span style="width: 58%">
-                  </span>
-                  <div class="container2">
+                  <span style="min-width: 0%;max-width: 100%;width: 58%">
+                   <div class="container2">
                     <div class="number8">
                     <h5>58%</h5>
                     </div>
-                  </div>
+                   </div>
+                  </span>
                 </li>  
               </li> 
               </ul>
@@ -318,19 +315,18 @@
               <li class="list10">
                 <h5>Lorem ipsum</h5>
                 <li class="Rectangle4">
-                  <span style="width: 32%">
-                  </span>
-                  <div class="container3">
+                  <span style="min-width: 0%;max-width: 100%;width: 32%">
+                   <div class="container3">
                     <div class="number8">
                     <h5>32%</h5>
                     </div>
+                  </span>
                   </div>
                 </li>  
               </li> 
               </ul>
             </div> 
             </div>
-          </div>
         </div>    
       </section>
     

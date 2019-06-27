@@ -1,5 +1,5 @@
 * {
-   margin: 0 auto; 
+   margin: 0; 
    box-sizing: border-box; 
  }
  .clear
@@ -8,6 +8,7 @@
  }
  .container-outer {
   width: 1200px;
+  margin: 0 auto;
   background-color: #EBECF2;
 }
 .container-inner{
@@ -17,24 +18,41 @@ header {
    width: 1200px;
    background-color: #384B59;
  }
- .milestone {
-  font-size: 16px;
+.m {
+  font-size: 18px;
+  font-family: 'Quicksand';
+  font-weight: 500;
+  color: #363F45;
+  line-height: 22px;
+}
+.ms {
+  font-size: 16px;  
   font-family: 'Lato';
   font-weight: 400;
   color: #363F45;
   line-height: 19px;
-  display: inline-block;
-  margin-top: 22px;
-  margin-left: 50px;
+  margin-top: 20px;
+  margin-left: 50px; 
+  vertical-align: middle;
 }
-h4 {
+.rectangle14:nth-child(2) {
+   padding-right: 22px;
+   font-size: 34px;
+   color: #E1E2E9;
+   font-family: 'Quicksand';
+   font-weight: 700;
+   float: right;
+   line-height: 40px;
+}
+.rt {
   font-size: 16px;
   font-family: 'Quicksand';
   font-weight: 700;
   color: #363F45;
   line-height: 19px;
-  padding-left: 29px;
   padding-top: 18px;
+  padding-left: 29px;
+  vertical-align: middle;
 }
 h5{
   font-size: 18px;
@@ -45,7 +63,6 @@ h5{
  }
 .right-image{
   float: right;
-  margin-top: -20px;
 }
 .rectangle1 span {
   height: 20px;
@@ -123,20 +140,13 @@ h5{
   float:right; 
 }
 .logo12 {
-  width: 4px;
-  height: 17px;
-  margin-top: -16px;
-  padding-left: 500px;
+  padding-left: 386px;
 }
 .logo13 {
-  width: 4px;
-  height: 17px;
-  margin-top: -16px;
-  padding-left: 500.5px;
+  padding-left: 388px;
 } 
 .LOGO {
   float: right;
-  margin-top: -20px;
 }
 .LOGO1 {
   padding-right: 27px;
@@ -152,20 +162,21 @@ h5{
  nav {
   float: right;
 }
- nav ul li:nth-child(1) {
+ .li1 {
    position: relative;
  }
- nav ul li:nth-child(1) span{
+ .li1 span{
   position: absolute;
   line-height: 16px;
   top: 0px;
   right: 0px;
 }
+ul a{
+  width: 40px;
+  height: 40px;
+}
 header nav ul a {
   display: inline-block;
-}
-header nav ul li:nth-child(2) a{
-  padding: 10px 12px 6px 12px;
 }
  li a:hover {
   background-color: #E9E9E9;
@@ -194,7 +205,6 @@ header nav ul li:nth-child(2) a{
    font-family: 'Lato';
    font-weight: 400;
    position: absolute;
-   left: 11px;
  }
  .circle1 {
    border-radius: 50%;
@@ -231,6 +241,7 @@ header nav ul li:nth-child(2) a{
 .footer1 {
    width: 72px;
    margin-top: 34px;
+   margin-left: 15px;
    margin-right: 93px;
    font-size: 30px;
    font-family: 'Quicksand';
@@ -288,18 +299,15 @@ header nav ul li:nth-child(2) a{
    width: 332px;
    margin-bottom: 1px;
    margin-top: -8px;
-   position: relative;
    background-color: #E1E2E6;
    border-radius: 25px;
    float: right;
 }
-.Rectangle4 >span {
+.Rectangle4 span {
+  position: relative;
   float: left;
   height: 9px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-radius: 4px;
   background-color: #5FCCC1;
 }
 .rectangle {
@@ -377,10 +385,11 @@ header nav ul li:nth-child(2) a{
 }
 .rectangle24:nth-child(2) {
   margin-right: 0px;
-  padding-bottom: 31px;
+  padding-bottom: 45px;
 }
 .rectangle25 {
  height: 56px;
+/*  text-align: center; */
  border-bottom: 1px solid #F1F1F1;
 }
 .number {
@@ -395,25 +404,22 @@ header nav ul li:nth-child(2) a{
  }
  .number1  {
    padding-top: 9px;
-   padding-right: 22px;
+   padding-left: 40px;
    font-size: 34px;
    color: #E1E2E9;
    font-family: 'Quicksand';
    font-weight: 700;
-   float: right;
+   display: inline-block;
    line-height: 40px;
  }
 .number8 h5{
   line-height: 14px;
-  text-align: left;
+  text-align: center;
   font-size: 12px;
   color: #FFFFFF;
   font-family: 'Lato';
   font-weight: 400;
-  padding-left: 3px;
-  padding-right: 4px;
   padding-top: 2px;
-  padding-bottom: 8px;
 }
  .percent {
    font-size: 16px;
@@ -447,7 +453,7 @@ header nav ul li:nth-child(2) a{
 }
 .List5 {
   margin-top: 0px;
-  padding-top: 40px;
+  padding-top: 10px;
   padding-left: 29px;
   padding-right: 32px;
   padding-bottom: 41px;
@@ -486,8 +492,9 @@ header nav ul li:nth-child(2) a{
   font-weight: 400;
   color: #919599;
   float: right;
-  padding-right: 18px;
+  padding-right: 27px;
   padding-top: 12px;
+  vertical-align: middle;
 }
 .list2 {
   line-height: 16px;
@@ -512,6 +519,18 @@ header nav ul li:nth-child(2) a{
   padding-top: 20px;
   padding-bottom: 19px;
   float: left;
+}
+.list4 {
+  line-height: 16px;
+  font-size: 13px;
+  text-align: center;
+  font-family: 'Lato';
+  font-weight: 400;
+  float: right;
+  padding-right: 26px;
+  padding-top: 12px;
+  color: #4BAE4F;
+  vertical-align: middle;
 }
 .list5 {
   width: 54px;
@@ -601,9 +620,9 @@ header nav ul li:nth-child(2) a{
 .container.input {
   display: inline-block;
 }
-input[type=checkbox] {
+/*input[type=checkbox] {
   zoom: 1.5;
-}
+}*/
 .checkbox {
   width: 17px;
   height: 17px;
@@ -614,9 +633,11 @@ input[type=checkbox] {
   float: right;
 }
 .container1 {
-  position: relative;
+  /* left: 0%;*/
+  right: -8%;
+  position: absolute;
   width: 32px;
-  height: 24.83px;
+  height: 24px;
   border: 1px solid #5FCCC1;
   border-radius: 4px;
   box-sizing: border-box;
@@ -624,7 +645,7 @@ input[type=checkbox] {
   margin-left: 124px;
   margin-top: -32px;
 }
-.container1:after{ /*pseudo class*/
+.container1::after{ /*pseudo class*/
   position: absolute;
   width: 6px;
   height: 6px;
@@ -640,7 +661,9 @@ input[type=checkbox] {
   border-left: 0px solid #5FCCC1; /*removing left border from diamond*/
 }
 .container2 {
-  position: relative;
+  /* left: 0%;*/
+  right: -6%;
+  position: absolute;
   width: 32px;
   height: 24px;
   border: 1px solid #5FCCC1;
@@ -666,7 +689,9 @@ input[type=checkbox] {
   border-left: 0px solid #5FCCC1; /*removing left border from diamond*/
 }
 .container3 {
-  position: relative;
+  /* left: 0%;*/
+  right: -10%;
+  position: absolute;
   width: 32px;
   height: 24px;
   border: 1px solid #5FCCC1;
@@ -692,13 +717,9 @@ input[type=checkbox] {
   border-left: 0px solid #5FCCC1; /*removing left border from diamond*/
 }
 footer {
-   width: 1198px;
    background-color: #384B59;
 }
-footer .container-inner {
-  margin: 0px 24px; 
-}
-.container-inner > p {
+.container-inner p {
  font-size: 11px;
  text-align: right;
  font-family: 'Lato';
