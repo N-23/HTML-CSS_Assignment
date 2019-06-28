@@ -25,25 +25,19 @@ header {
   color: #363F45;
   line-height: 22px;
 }
+.ms-outer {
+  padding: 20px 34px;
+}
 .ms {
   font-size: 16px;  
   font-family: 'Lato';
   font-weight: 400;
   color: #363F45;
   line-height: 19px;
-  margin-top: 20px;
-  margin-left: 50px; 
+  display: table-cell;
+  padding: 0px 34px;
   vertical-align: middle;
-}
-.rectangle14:nth-child(2) {
-   padding-right: 22px;
-   font-size: 34px;
-   color: #E1E2E9;
-   font-family: 'Quicksand';
-   font-weight: 700;
-   float: right;
-   line-height: 40px;
-}
+} 
 .rt {
   font-size: 16px;
   font-family: 'Quicksand';
@@ -97,7 +91,8 @@ h5{
 }
 .logo {
    float: left;
-   padding: 5px;
+   margin-top: 10px;
+   margin-bottom: 10px;
  }
  .logoa {
    vertical-align: top;
@@ -161,8 +156,11 @@ h5{
  }
  nav {
   float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
  .li1 {
+   margin-right: 42px;
    position: relative;
  }
  .li1 span{
@@ -170,6 +168,9 @@ h5{
   line-height: 16px;
   top: 0px;
   right: 0px;
+}
+.li2 {
+  margin-right: 32px;
 }
 ul a{
   width: 40px;
@@ -179,14 +180,13 @@ header nav ul a {
   display: inline-block;
 }
  li a:hover {
-  background-color: #E9E9E9;
+  background-color: rgb(243, 188, 188,0.1);
 }
  li {
   float:left;
  }
  ul {
   list-style-type: none;
-  margin-top: 10px;
  }
  nav ul {
    padding-left: 0px;
@@ -278,7 +278,7 @@ header nav ul a {
    padding-left: 2px;
    padding-bottom: 2px;
    background-color: #FFFFFF;
-   border-radius: 25px; 
+   border-radius: 4px; 
 }
 .Rectangle2 >span {
   float: left;
@@ -286,10 +286,10 @@ header nav ul a {
   padding-top: 2px;
   padding-left: 2px;
   padding-bottom: 2px;
-  border-top-right-radius: 4px;
-  border-bottom-right-radius: 4px;
-  border-top-left-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
   background-color: #D4C69B;
 }
 .Rectangle3 {
@@ -300,7 +300,7 @@ header nav ul a {
    margin-bottom: 1px;
    margin-top: -8px;
    background-color: #E1E2E6;
-   border-radius: 25px;
+   border-radius: 4px;
    float: right;
 }
 .Rectangle4 span {
@@ -343,7 +343,7 @@ header nav ul a {
    height: 110px;
    text-align:center;
    float: right;
-   background-color:rgba(255,255,255,0.1);
+   background-color:rgba(255,255,255,0.1);/*0.1=Opacaity:10%*/
    width: 90px;
    box-sizing: border-box;
  }
@@ -367,6 +367,9 @@ header nav ul a {
 .rectangle14 {
   height: 59px;
   text-align: center;
+  clear: both;
+  display: table;
+  width: 100%;
 }
  .darkgreen {
    border: 10px solid #8AC249;
@@ -403,14 +406,14 @@ header nav ul a {
    padding-right: 22px; 
  }
  .number1  {
-   padding-top: 9px;
-   padding-left: 40px;
    font-size: 34px;
    color: #E1E2E9;
    font-family: 'Quicksand';
    font-weight: 700;
-   display: inline-block;
    line-height: 40px;
+   padding-right: 22px;
+   vertical-align: middle;
+   display: table-cell;
  }
 .number8 h5{
   line-height: 14px;
@@ -473,6 +476,7 @@ header nav ul a {
   padding-bottom: 56px;
 }
 .list {
+  width: 70%;
   line-height: 16px;
   font-size: 14px;
   text-align: left;
@@ -485,6 +489,7 @@ header nav ul a {
   float: left;
 }
 .list1 {
+  width: 20%;
   line-height: 16px;
   font-size: 13px;
   text-align: center;
@@ -494,9 +499,9 @@ header nav ul a {
   float: right;
   padding-right: 27px;
   padding-top: 12px;
-  vertical-align: middle;
 }
 .list2 {
+  width: 70%;
   line-height: 16px;
   font-size: 14px;
   text-align: left;
@@ -521,6 +526,7 @@ header nav ul a {
   float: left;
 }
 .list4 {
+  width: 19%;
   line-height: 16px;
   font-size: 13px;
   text-align: center;
@@ -530,7 +536,6 @@ header nav ul a {
   padding-right: 26px;
   padding-top: 12px;
   color: #4BAE4F;
-  vertical-align: middle;
 }
 .list5 {
   width: 54px;
