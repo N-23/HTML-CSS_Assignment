@@ -129,7 +129,6 @@ ul a{
    float: left;
  }
  .rectangle1 span {
-  height: 20px;
   font-size: 16px;
   font-family: 'Quicksand';
   font-weight: 500;
@@ -228,6 +227,7 @@ ul a{
 .rectangle14 {
   line-height: 59px;
   text-align: center;
+  background-color: #FFFFFF;
 }
 .number1  {
   font-size: 34px;
@@ -255,18 +255,13 @@ ul a{
 .Rectangle2 {
   width: 1152px;
   height: 9px;
-  padding-top: 2px;
-  padding-left: 2px;
-  padding-bottom: 2px;
+  padding: 2px;
   background-color: #FFFFFF;
   border-radius: 4px; 
 }
 .Rectangle2 span {
  float: left;
  height: 5px;
- padding-top: 2px;
- padding-left: 2px;
- padding-bottom: 2px;
  border-top-right-radius: 2px;
  border-bottom-right-radius: 2px;
  border-top-left-radius: 2px;
@@ -331,7 +326,6 @@ ul a{
 .container {
   padding-top: 21px;
   padding-right: 30px;
-  background-color: #FFFFFF;
   float: right;
 }
 .container.input {
@@ -431,13 +425,8 @@ ul a{
   padding-bottom: 41px;
 }
 .list10 {
-  font-size: 16px;
   padding-top: 19px;
   padding-right: 79px;
-  text-align: left;
-  font-family: 'Lato';
-  font-weight: 400;
-  color: #363F45;
 }
 .list10 h5 {
   padding-top: 19px;
@@ -471,9 +460,7 @@ ul a{
   height: 24px;
   border: 1px solid #5FCCC1;
   border-radius: 4px;
-  box-sizing: border-box;
   background-color: #5FCCC1;
-  margin-left: 124px;
   margin-top: -32px;
 }
 .container1::after{ /*pseudo class*/
@@ -514,9 +501,7 @@ ul a{
   height: 24px;
   border: 1px solid #5FCCC1;
   border-radius: 4px;
-  box-sizing: border-box;
   background-color: #5FCCC1;
-  margin-left: 172px;
   margin-top: -32px;
 }
 .container2:after{ /*pseudo class*/
@@ -548,9 +533,7 @@ ul a{
   height: 24px;
   border: 1px solid #5FCCC1;
   border-radius: 4px;
-  box-sizing: border-box;
   background-color: #5FCCC1;
-  margin-left: 86px;
   margin-top: -32px;
 }
 .container3:after { /*pseudo class*/
