@@ -5,30 +5,46 @@
     <meta charaset="utf-8"><!--meta tags are used for description, keywords, author info and they are also useful for search engines-->
     <title>Webpage</title>
     <link rel="stylesheet" type="text/css" href="CSS/sheet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap" rel="stylesheet" /><!--500:Medium & 700:Bold-->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet" /><!--400:Regular & 700:Bold-->
   </head>
 
-  <body>
+  <body background="Images/architecture-bridge-buildings.jpg">
     <div class="container-outer">
 
       <header>
         <div class="container-inner">
           <div class="logo">
-            <a href="#">
+            <a href="https://www.spireconsultinggroup.com/en/homepage/">
              <img src="Images/Shape 1 copy 2.png" alt="Spire company logo">
             </a>
-            <a href="#" class="logoa">
-             <img src="Images/Shape 1 copy.png" alt="Three lines">
-            </a>
-            <div class="clear"></div>
+            <div class="dropdown">
+              <button class="drop">
+               <!--<a href="#" class="logoa"</a>-->
+                <img src="Images/Shape 1 copy.png" alt="Three lines">
+                <i class="fa fa-caret-down"></i>
+              </button>
+               <div class="clear"></div>
+                <div class="dropdown-content">
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/construction-planning/">Project Planning</a>
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/risk-management/">Risk Management</a>
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/program-management/">Program Management</a>
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/program-management/">Project Management</a>
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/construction-claims/">Construction Claims</a>
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/litigation-support/">Litigation Support</a>
+                 <a href="https://www.spireconsultinggroup.com/en/professional-services/construction-training/">Construction Training</a>
+                </div>
+            </div>
           </div>
           <nav>
             <ul>
               <li class="li1">
                 <a href="#">
                   <img src="Images/Inboxsign.png" alt="INBOX">  
-                  <span class="circle">6</span>
+                  <div class="circle">6
+                    <span class="tooltiptext">6 Message's are pending</span>
+                  </div>
                 </a>
               </li> 
 
@@ -38,9 +54,9 @@
                 </a>
               </li>
 
-              <li>
+              <li class="id">
                 <a href="#">
-                <img src="Images/search_logo.png" alt="SEARCH">
+                  <img src="Images/search_logo.png" alt="SEARCH">
                 </a>
               </li>
               <div class="clear"></div>  
